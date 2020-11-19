@@ -1,6 +1,4 @@
-import React from 'react';
-
-const questionBank = [
+export const questionBank = [
     {
         question: 'What is the main cause/ spreading agent of the Bubonic Plague ?',
         answers: ["A. Fleas","B. God's Punishment ","C. Sheep"],
@@ -123,4 +121,3 @@ const questionBank = [
     }
 ];
 
-export default questionBank;
