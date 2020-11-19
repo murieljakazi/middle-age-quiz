@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import MiddleAge from './MiddleAge';
 
 class Menu extends React.Component {
 
@@ -9,7 +10,7 @@ class Menu extends React.Component {
             <nav>
                 <ul>
                     {links.map((link, index) => (
-                        <li key={index}><button><Link to={link}></Link>{link}</button></li>
+                        <li key={index}><button><Link to={"/MiddleAge"}>{link}</Link></button></li>
                      ) )}
                 </ul>
             </nav>
