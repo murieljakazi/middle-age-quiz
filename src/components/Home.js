@@ -7,7 +7,7 @@ class Home extends React.Component {
         questionBank : []
     }
     getQuestions = () => {
-
+    
     }
 
     render() {
