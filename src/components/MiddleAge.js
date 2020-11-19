@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { questionBank } from './QuestionBank/QuestionBank';
+import { questionBank } from './QuestionBank';
+import QuestionBox from './QuestionBox';
 
 const MiddleAge = () => {
     const [questions, setQuestions] = useState([]);
@@ -10,8 +11,10 @@ const MiddleAge = () => {
     }, [])
         return(
             <div>
-                {questions.map(question => <h4>{question.question}</h4> )}
-                <p>Middle Age</p>
+                <h3>Middle Age</h3>
+                {questions.map((question, index) => 
+                     <QuestionBox  question={question.question} options={question.answers} key={question.questionId}/>
+                )}
             </div>
         )
 
