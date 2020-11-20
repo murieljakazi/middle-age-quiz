@@ -36,11 +36,14 @@
 } 
 
 .titleBackground{
-    background-color: white;
-    color: white;
+    background-color: #252d4a;
+    /* background-color: rgb(6, 66, 21); */
+    border-radius: 15px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
     height: 150px;
     opacity: 0.2; 
     position: relative;
     bottom: 150px;
     z-index: 2;
+    padding: 20px;
 }

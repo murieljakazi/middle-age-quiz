@@ -3,7 +3,7 @@ export const questionBank = [
         question: 'What is the main cause/ spreading agent of the Bubonic Plague ?',
         answers: ["A. Fleas","B. God's Punishment ","C. Sheep"],
         correct: "A. Fleas",
-        image: "https://images.app.goo.gl/YSmopngSNFCsFCjg7",
+        image: "https://i.insider.com/5f232cd95af6cc74256a1da4?width=750&format=jpeg&auto=webp",
         explanation:"Keeping your animals apart from humans will minimize the chances of Plague infested fleas making their way to you and your home.",
         questionId:"1"
     },
@@ -11,7 +11,7 @@ export const questionBank = [
         question: "What is NOT a symptom of the Bubonic Plague ?",
         answers: ["A. Flu-Like Symptoms","B. Black splotches","C. Persistent Thirst"],
         correct: "C. Persistent Thirst",
-        image: "https://images.app.goo.gl/KbGwdR4ZEH951fmC8",
+        image: "https://upload.wikimedia.org/wikipedia/commons/e/e0/William-Adolphe_Bouguereau_%281825-1905%29_-_Thirst_%281886%29.jpg",
         explanation:"Visit your local healthcare practitioner as soon as you see black splotches develop on your skin.",
         questionId:"2"
     },
@@ -19,7 +19,7 @@ export const questionBank = [
         question: "What is the cure for the Bubonic Plague ?",
         answers: ["A. Anti -biotics (Which have not yet been invented )","B. Placing a hen next to the wound to draw out the pestilence","C. Cut open the veins leading to the heart because the disease is in the blood"],
         correct: "A. Anti -biotics (Which have not yet been invented )",
-        image: "https://images.app.goo.gl/LavGFPw9V265FGWT9",
+        image: "https://images-na.ssl-images-amazon.com/images/I/81b0RLn-JuL.jpg",
         explanation:"Sit tight… Help is on the way ;)",
         questionId:"3"
     },
@@ -27,7 +27,7 @@ export const questionBank = [
         question: "How often should one take a shower ?",
         answers: ["A. At least once a day","B. At least once a week","C. At least once every fortnight"],
         correct: "A. At least once a day",
-        image: "https://images.app.goo.gl/1f865HAhUPf5Hv858",
+        image: "https://i.pinimg.com/originals/76/34/37/7634373479768563f6733fa2133cfbf0.jpg",
         explanation:"At least one shower a day will make sure that your body is not the habitat of choice for fleas or any other disease spreading organisms",
         questionId:"4"
     },
@@ -35,7 +35,7 @@ export const questionBank = [
         question: "Which is NOT a way to avoid tooth decay / toothaches ?",
         answers: ["A. Brush your teeth twice a day","B. Floss regularly","C. Burn out the rot/disease with a candle"],
         correct: "C. Burn out the rot/disease with a candle",
-        image: "https://images.app.goo.gl/zdaN8Xwu7C8GTVdc7",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zF4Qf8itBKdzM1F7uAw7Amd1XwKlk_UiPQ&usqp=CAU",
         explanation:"You are more likely to burn yourself than treat your tooth ache. Just keep your mouth clean.",
         questionId:"5"
     },
@@ -59,7 +59,7 @@ export const questionBank = [
         question: "What is true about breaking a mirror ?",
         answers: ["A. You will have bad luck for seven years","B. You will have good luck for seven years ","C. None of the above"],
         correct: "C. None of the above",
-        image: "https://images.app.goo.gl/VPFPcNCVEFD6J5ou5",
+        image: "https://cdn.images.express.co.uk/img/dynamic/130/590x/secondary/Friday-the-13th-2055040.jpg?r=1568319924021",
         explanation:"Many people believe in 7 year cycles of life. The truth is that life one long cycle and breaking a mirror does not affect it in any way.",
         questionId:"8"
     },
@@ -67,7 +67,7 @@ export const questionBank = [
         question: "Why is it necessary to say “Bless you” after someone sneezes ?",
         answers: ["A. You might sneeze your soul out ","B. You might sneeze all your good fortune out","C. It is not necessary to say “Bless You” but it is polite and part of good manners"],
         correct: "C. It is not necessary to say “Bless You” but it is polite and part of good manners",
-        image: "https://images.app.goo.gl/ChD7zoxckEtxXEsT9",
+        image: "https://greatbritishmag.co.uk/wp-content/uploads/2017/01/Bless-you-sneeze.jpg",
         explanation:"It is not necessary to stop saying “bless you” when people sneeze it is just important the people know that souls cannot and will not leave the body through the mouth when sneezing.",
         questionId:"9"
     },
@@ -75,7 +75,7 @@ export const questionBank = [
         question: "What are the benefits of throwing salt over your shoulder ?",
         answers: ["A. It is just a way to get rid of salt which has been spilt by mistake","B. It blinds the evil spirits which follow people around","C. The salt will make the land of your enemies barren"],
         correct: "A. It is just a way to get rid of salt which has been spilt by mistake",
-        image: "https://images.app.goo.gl/BSXhhhnTaK65RdAe8",
+        image: "https://ak.picdn.net/shutterstock/videos/3214141/thumb/1.jpg",
         explanation:"Salt is a resource which will drop in value in years to come. Most people in the future will use salt only to flavor their food. ",
         questionId:"10"
     },
@@ -115,7 +115,7 @@ export const questionBank = [
         question: "How to take a bath ?",
         answers: ["A. In wastewater ","B. Dark water","C. In hot water and jacuzzi"],
         correct: "C. In hot water and jacuzzi",
-        image: "https://lh3.googleusercontent.com/proxy/fj6l6iUXK6DTcoJJx356h1DDWvNCDDZeNClOuFIP6PmPpUd665t9RU84mWd-7MJlwSIB0pgvK1vmiFmeaeNj9rNKQ4GwY_HzOB5VoZtzujHMwIB5eXrMfetbPUcahuDseOpz8mset6UzwGxIrux3rQFeVfhrwv096DE",
+        image: "https://i2.wp.com/janineprince.com/wp-content/uploads/2015/02/woman-in-bath.jpg?fit=319%2C375&ssl=1",
         explanation:"Take off your clothes. Put your dirty clothes in the laundry basket. Put your clean clothes or pajamas in a place where they won't be. Adjust the water temperature. Turn on the water faucet and let it run until the desired temperature is reached. Check the position of the… Get into the shower. Wait until the temperature is correct and enjoy .",
         questionId:"15"
     }
