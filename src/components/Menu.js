@@ -1,19 +1,22 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import MiddleAge from './MiddleAge';
+import { Link } from 'react-router-dom';
+import './Menu.css'
+
 
 class Menu extends React.Component {
 
     render () {
         const links = ["Middle Age", "Renaissance", "Prohibition", "Antiquity"]
         return(
-            <nav>
-                <ul>
-                    {links.map((link, index) => (
-                        <li key={index}><button><Link to={"/MiddleAge"}>{link}</Link></button></li>
-                     ) )}
-                </ul>
-            </nav>
+            <div className="nav-container">
+                <nav>
+                    <ul>
+                        {links.map((link, index) => (
+                            <li key={index}><Link to={"/MiddleAge"} style={{textDecoration: 'none'}}>{link}</Link></li>
+                        ) )}
+                    </ul>
+                </nav>
+            </div>
         )
     }
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "./QuestionBox.css";
 
 const QuestionBox = ({question, options, step}) => {
     

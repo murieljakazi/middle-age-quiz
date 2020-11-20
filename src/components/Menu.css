@@ -1,0 +1,28 @@
+.nav-container {
+    border: 3px solid white;
+    height: 100vh;
+}
+nav {
+    margin-top: 13em;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    margin-top: 3em;
+    height: 15em;
+    text-decoration: none;
+    list-style: none;
+    width: 20em;
+    /* border: 1px solid black; */
+    background-image: url("../assets/scroll.png");
+    background-size: cover;
+}
+
+li {
+    text-decoration: none;
+}
+
