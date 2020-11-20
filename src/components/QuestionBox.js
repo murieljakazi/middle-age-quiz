@@ -17,4 +17,4 @@ const QuestionBox = ({question, options, step, image, correct}) => {
     )
 }
 
-export default QuestionBox
+export default QuestionBox;

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { questionBank } from "./QuestionBank";
 import QuestionBox from "./QuestionBox";
 import ScoreCard from "./ScoreCard";
-import "./MiddleAge.css"
+import "./MiddleAge.css";
 
 const MiddleAge = () => {
     const [questions, setQuestions] = useState([]);
@@ -27,10 +27,9 @@ const MiddleAge = () => {
     }, [])
         return(
             <div>
-                    <h4>Middle Age</h4>
+                <h4>Middle Age</h4>
                 <div className="card">
                     {console.log(score)}
-                
                     {
                     (questions.length > 0 && counter < questions.length) && 
                     <QuestionBox 
@@ -51,7 +50,6 @@ const MiddleAge = () => {
                         />
                     }
                 </div>
-                
             </div>
         )
 
