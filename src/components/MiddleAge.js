@@ -27,7 +27,7 @@ const MiddleAge = () => {
     }, [])
         return(
             <div>
-                <h4>Middle Age</h4>
+                <h4 className="card-title">Middle Age</h4>
                 <div className="card">
                     {console.log(score)}
                     {

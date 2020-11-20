@@ -1,13 +1,31 @@
   .questionBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.2);
     margin-top: 5px;
-    margin-right: 200px;
+    margin-right: 400px;
+    margin-left: 400px;
     padding: 15px;
-    box-sizing: border-box;
-    background-color: rgb(250, 250, 250);
+    height: 500px;
+    /* box-sizing: border-box; */
+    background-color: rgba(47, 104, 21, 0.658);
+    border-radius: 15px;
 }
 
 img {
+    margin: 2em;
     height: 150px;
 }
+
+button {
+    outline: none;
+    margin: 2em;
+    width: 50em;
+    height: 3em;
+}
+
+

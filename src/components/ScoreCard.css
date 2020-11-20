@@ -1,0 +1,33 @@
+.score-container {
+    background-image: url(../assets/medCastle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.score-title {
+    border: none;
+    background: none;
+    width: 25em;
+}
+
+.final-score {
+    background-color: white;
+    opacity: 0.8;
+    width: 20em;
+    height: 4em;
+    margin: auto;
+    border-radius: 40px;
+    padding-top: 2em;
+    margin-top: 2em;
+    /* margin-left: 30em; */
+}
+
+.score-summary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}

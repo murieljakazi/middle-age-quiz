@@ -18,8 +18,10 @@ class Home extends React.Component {
                 <div className="quiz-welcome">
                     <h1 className="quiz-title">Welcome to Quiz UP</h1>
                     <p className="quiz-explanation">The game made by the future to educate you, bust myths and help you live a long and healthy life!</p>
-                    <div><Link to={"/Menu"} style={{textDecoration: 'none', padding:'60px' }}>Click to play</Link></div>
-                    <div className="titleBackground">/</div>
+                    <br/>
+                    <br/>
+                    <div><Link className="home-links" to={"/Menu"} style={{textDecoration: 'none', padding:'60px' }}>Click to play</Link></div>
+                    {/* <div className="titleBackground">/</div> */}
                 </div>
             </div>
         )

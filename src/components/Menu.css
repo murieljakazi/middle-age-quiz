@@ -1,5 +1,5 @@
 .nav-container {
-    background-color: whitesmoke;
+    background-image:url("../assets/castle.jpg");
     border: 3px solid white;
     height: 100vh;
 }
@@ -14,17 +14,18 @@ ul {
 }
 
 li {
+    font-size: small;
     margin-top: 3em;
-    height: 15em;
+    /* height: 15em; */
     text-decoration: none;
     list-style: none;
     width: 20em;
-    border: 1px solid black;
+    /* border: 1px solid black;
     background: url("../assets/scroll.png");
-    background-size: cover;
+    background-size: cover; */
 }
 
-li {
-    text-decoration: none;
+li :hover {
+    font-size: larger;
 }
 

@@ -7,6 +7,7 @@ const QuestionBox = ({question, options, step, image, correct}) => {
         <div className="questionBox">
             <img src={image} alt={correct}></img>
             <div className="questionQuiz">{question}</div>
+            <br/>
             
             {options.map((text, index) => (
                 <button key={index} className="answerBtn" onClick={step}>

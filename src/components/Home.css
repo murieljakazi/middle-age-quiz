@@ -24,7 +24,16 @@
     outline: 0;
 }
 
+.quiz-title {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 60pt;
+}
 
+.quiz-explanation {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24pt;
+    font-weight: 500;
+}
 /* .titleBackground{
     background-color: white;
     color: white;
@@ -35,3 +44,17 @@
     z-index: 2;
     padding: 20px;
 } */
+
+.home-links {
+    font-size: 15pt;
+    transition: 0.8s;
+    border-radius: 60px;
+    background-color: white;
+    opacity: 0.6;
+    padding: 60px;
+    height: 10px;
+}
+
+.home-links :hover {
+    font-size: 18pt;
+}

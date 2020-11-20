@@ -12,7 +12,7 @@ class Menu extends React.Component {
                 <nav>
                     <ul>
                         {links.map((link, index) => (
-                            <li key={index}><Link to={"/MiddleAge"} style={{textDecoration: 'none'}}>{link}</Link></li>
+                            <li key={index}><Link className="home-links" to={"/MiddleAge"} style={{textDecoration: 'none'}}>{link}</Link></li>
                         ) )}
                     </ul>
                 </nav>
