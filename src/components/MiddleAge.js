@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { questionBank } from "./QuestionBank";
 import QuestionBox from "./QuestionBox";
 import ScoreCard from "./ScoreCard";
+import "./MiddleAge.css";
 
 const MiddleAge = () => {
     const [questions, setQuestions] = useState([]);
@@ -26,25 +27,29 @@ const MiddleAge = () => {
     }, [])
         return(
             <div>
-                {console.log(score)}
-                <p>Middle Age</p>
-                {
-                  (questions.length > 0 && counter < questions.length) && 
-                  <QuestionBox 
-                    key={questions[counter].questionId}
-                    question={questions[counter].question} 
-                    options={questions[counter].answers}
-                    step={step}
-                    />
-                }
-                
-                {(counter === questions.length) && 
-                    <ScoreCard 
-                    score={score}
-                    total={questions.length}
-                    reset={reset}
-                    />
-                }
+                <h4>Middle Age</h4>
+                <div className="card">
+                    {console.log(score)}
+                    {
+                    (questions.length > 0 && counter < questions.length) && 
+                    <QuestionBox 
+                        key={questions[counter].questionId}
+                        question={questions[counter].question}
+                        image={questions[counter].image} 
+                        options={questions[counter].answers}
+                        correct={questions[counter].correct}
+                        step={step}
+                        />
+                    }
+                    
+                    {(counter === questions.length) && 
+                        <ScoreCard 
+                        score={score}
+                        total={questions.length}
+                        reset={reset}
+                        />
+                    }
+                </div>
             </div>
         )
 
